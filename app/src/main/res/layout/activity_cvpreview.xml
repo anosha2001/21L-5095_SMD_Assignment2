@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".CVPreview">
+
+    <!-- Personal Details -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personal Details"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:textColor="@color/black" />
+
+    <TextView android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:textSize="16sp" />
+
+    <TextView android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:textSize="16sp" />
+
+    <TextView android:id="@+id/tvPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone: "
+        android:textSize="16sp" />
+
+    <TextView android:id="@+id/tvGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender: "
+        android:textSize="16sp" />
+
+    <!-- Summary -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Summary"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:textColor="@color/black" />
+
+    <TextView android:id="@+id/tvSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Summary: "
+        android:textSize="16sp"
+        android:maxLines="5"
+        android:ellipsize="end" />
+
+    <!-- Education -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Education"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:textColor="@color/black" />
+
+    <TextView android:id="@+id/tvDegree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Degree: "
+        android:textSize="16sp" />
+
+    <TextView android:id="@+id/tvInstitution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Institution: "
+        android:textSize="16sp" />
+
+    <!-- Work Experience -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Work Experience"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:textColor="@color/black" />
+
+    <TextView android:id="@+id/tvCompanyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Company: "
+        android:textSize="16sp" />
+
+    <TextView android:id="@+id/tvJobTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Job Title: "
+        android:textSize="16sp" />
+
+    <TextView android:id="@+id/tvYearsExperience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Years of Experience: "
+        android:textSize="16sp" />
+
+    <!-- Certifications -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Certifications"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:textColor="@color/black" />
+
+    <TextView android:id="@+id/tvCert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Certificate: "
+        android:textSize="16sp" />
+
+    <TextView android:id="@+id/tvIssuer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Issued by: "
+        android:textSize="16sp" />
+
+    <!-- References -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="References"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:textColor="@color/black" />
+
+    <TextView android:id="@+id/tvRefName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Referee Name: "
+        android:textSize="16sp" />
+
+    <TextView android:id="@+id/tvRefContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Referee Contact: "
+        android:textSize="16sp" />
+
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="20dp">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="10dp" />
+
+        <Button
+            android:id="@+id/btnSavePDF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send CV"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+
+</LinearLayout>

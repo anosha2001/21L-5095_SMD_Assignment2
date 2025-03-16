@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CV Builder (smd assigment 2)</string>
+    <string name="title">CV Builder</string>
+    <string name="pfp">Profile Picture</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="summary">Summary</string>
+    <string name="education">Education</string>
+    <string name="experience">Experience</string>
+    <string name="certifications">Certifications</string>
+    <string name="references">References</string>
+    <string name="cv_preview">CV Preview</string>
+    <string name="certification_name">Certification Name</string>
+    <string name="issuing_organization">Issuing Organization</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="degree">Degree</string>
+    <string name="institution_name">Institution Name</string>
+</resources>
